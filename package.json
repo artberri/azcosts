@@ -1,0 +1,23 @@
+{
+  "name": "azcosts",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "azcosts": "src/azcosts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-arm-commerce": "^0.2.0",
+    "azure-common": "^0.9.18",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.1",
+    "json2csv": "^3.7.3",
+    "ms-rest": "^1.15.4",
+    "ms-rest-azure": "^1.15.4",
+    "nconf": "^0.8.4"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+azcosts.json
+azcosts.ods
+azcosts.csv
+.~lock.*
