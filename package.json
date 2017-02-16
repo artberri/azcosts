@@ -8,7 +8,9 @@
   "scripts": {
     "lint": "eslint src/**/*.js test/**/*.js",
     "pretest": "npm run lint",
-    "test": "mocha test/**/*.js"
+    "test": "npm run coverage",
+    "mocha": "mocha test/**/*.js",
+    "coverage": "istanbul cover _mocha -- -u exports -R spec --include-all-sources true --recursive test/"
   },
   "keywords": [
     "cli",
@@ -44,6 +46,7 @@
     "chai": "^3.5.0",
     "eslint": "^3.15.0",
     "eslint-plugin-mocha": "^4.8.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "rewire": "^2.5.2",
     "sinon": "^1.17.7"

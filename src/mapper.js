@@ -1,4 +1,4 @@
-function mapper(usage, rates) {
+module.exports = (usage, rates) => {
 
     usage.map(metric => {
         const re = /\/resourceGroups\/([a-zA-Z0-9_-]+)\//;
@@ -14,7 +14,7 @@ function mapper(usage, rates) {
         metric.resourceUri = instanceData.resourceUri ? instanceData.resourceUri : 'others';
         metric.location = instanceData.location;
         metric.tags = instanceData.tags;
-        metric.resourceGroup = matchs ? matchs[1] : '';
+        metric.resourceGroup = matchs && matchs[1] ? matchs[1] : '';
         metric.name = segments[segments.length - 1];
 
         delete metric.id;
@@ -29,6 +29,4 @@ function mapper(usage, rates) {
     });
 
     return usage;
-}
-
-module.exports = mapper;
+};

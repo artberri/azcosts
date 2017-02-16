@@ -89,6 +89,5 @@ getClient(authConfig).then((client) => {
 
     outputHandler.handle(metrics, outputs);
 }).catch((err) => {
-    console.log(err);
     errorHandler.raise(err);
 });

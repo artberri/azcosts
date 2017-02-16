@@ -3,3 +3,4 @@ azcosts.json
 azcosts.ods
 azcosts.csv
 .~lock.*
+coverage/
