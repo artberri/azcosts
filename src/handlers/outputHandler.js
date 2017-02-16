@@ -9,7 +9,7 @@ class OutputHandler {
 
     handle(metrics, outputs) {
         outputs.forEach((output) => {
-            let handler = this.handlers[outputs];
+            let handler = this.handlers[output];
 
             handler(metrics);
         });

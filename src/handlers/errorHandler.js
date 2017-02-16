@@ -1,15 +1,17 @@
+/* eslint-disable no-console */
+
 class ErrorHandler {
     raise(title, messages) {
         messages = messages || [];
 
-        console.log();
+        console.log('');
         console.log('  ' + title);
-        console.log();
+        console.log('');
         messages.forEach((item) => {
             console.log('  - ' + item);
         });
         console.log('  - Run `azcosts help get` for more help.');
-        console.log();
+        console.log('');
         process.exit(1);
     }
 }

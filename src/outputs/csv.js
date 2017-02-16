@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 let json2csv = require('json2csv');
 let path = require('path');
 let fs = require('fs');

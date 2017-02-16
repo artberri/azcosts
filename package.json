@@ -6,7 +6,9 @@
     "azcosts": "src/azcosts.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha test/**/*.js"
   },
   "keywords": [
     "cli",
@@ -37,5 +39,13 @@
   },
   "bugs": {
     "url": "https://github.com/artberri/azcosts/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.7"
   }
 }

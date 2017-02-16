@@ -1,0 +1,4 @@
+rules:
+  init-declarations: 'off'
+  no-underscore-dangle: 'off'
+  no-unused-expressions: 'off'
