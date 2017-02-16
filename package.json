@@ -1,15 +1,26 @@
 {
   "name": "azcosts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Azcosts is a CLI tool for generating Azure infrastructure cost reports",
   "bin": {
     "azcosts": "src/azcosts.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "azure",
+    "reporting",
+    "costs"
+  ],
+  "homepage": "https://github.com/artberri/azcosts",
+  "author": {
+    "name": "Alberto Varela",
+    "email": "alberto@berriart.com",
+    "url": "http://www.berriart.com"
+  },
+  "license": "GPL-3.0",
   "dependencies": {
     "azure-arm-commerce": "^0.2.0",
     "azure-common": "^0.9.18",
@@ -19,5 +30,12 @@
     "ms-rest": "^1.15.4",
     "ms-rest-azure": "^1.15.4",
     "nconf": "^0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artberri/azcosts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artberri/azcosts/issues"
   }
 }
