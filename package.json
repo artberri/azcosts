@@ -1,6 +1,6 @@
 {
   "name": "azcosts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Azcosts is a CLI tool for generating Azure infrastructure cost reports",
   "bin": {
     "azcosts": "src/azcosts.js"
