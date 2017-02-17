@@ -97,10 +97,15 @@ Use `git rebase` (not `git merge`) to sync your work from time to time.
 git fetch upstream
 git rebase upstream/master
 ```
-
 ### Step 5: Test
 
-Sorry, we have not automatic test in place yet, you need to ensure that everything works manually.
+The project has not enough tests jet, but anyway you should pass some minimum quality
+checks by running:
+
+```text
+$ npm install
+$ npm test
+```
 
 When reporting a bug, it may be a good idea to write all steps needed to reproduce it
 to allow developers of the bundle to reproduce the issue by simply following them.

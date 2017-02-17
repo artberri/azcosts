@@ -1,5 +1,7 @@
 # azcosts
 
+[![Build Status](https://travis-ci.org/artberri/azcosts.svg?branch=master)](https://travis-ci.org/artberri/azcosts) [![Dependency Status](https://david-dm.org/artberri/azcosts.svg)](https://david-dm.org/artberri/azcosts) [![npm version](https://img.shields.io/npm/v/azcosts.svg)](https://npmjs.org/package/azcosts) [![License](https://img.shields.io/npm/l/azcosts.svg)](https://github.com/artberri/azcosts/blob/master/LICENSE)
+
 Azcosts is a CLI tool built with Node.js for generating Azure infrastructure cost reports,
 This tool is built on top of the Azure Resource Usage API and the Azure Resource RateCard API.
 
@@ -35,7 +37,7 @@ You can call `azcosts <command> --help` to find out more about all of the follow
 azcosts init --config /path/to/azcosts.json
 ```
 
-This will start a wizard that will create (or override) the configuration file where the credentials 
+This will start a wizard that will create (or override) the configuration file where the credentials
 and the settings for your subscrition are saved.
 
 If you don't use the `--config` option it will create the `azcosts.json` file in the directory where
