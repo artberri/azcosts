@@ -25,6 +25,9 @@
     "url": "http://www.berriart.com"
   },
   "license": "GPL-3.0",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "dependencies": {
     "azure-arm-commerce": "^0.2.0",
     "azure-common": "^0.9.18",

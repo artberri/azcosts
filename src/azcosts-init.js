@@ -1,7 +1,9 @@
-const path = require('path');
-const fs = require('fs');
-const program = require('commander');
-const inquirer = require('inquirer');
+'use strict';
+
+let path = require('path');
+let fs = require('fs');
+let program = require('commander');
+let inquirer = require('inquirer');
 
 let ui = new inquirer.ui.BottomBar();
 
@@ -68,7 +70,7 @@ inquirer.prompt([
             }
 
             return 'The Offer ID format is MS-AZR-XXXXX';
-        }       
+        }
     },
     {
         type: 'input',

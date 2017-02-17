@@ -1,3 +1,5 @@
+'use strict';
+
 function usage(client, startDate, endDate) {
     return new Promise((resolve, reject) => {
         let aggregates = [];

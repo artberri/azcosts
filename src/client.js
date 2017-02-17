@@ -1,5 +1,7 @@
-const msRestAzure = require('ms-rest-azure');
-const UsageManagementClient = require('azure-arm-commerce');
+'use strict';
+
+let msRestAzure = require('ms-rest-azure');
+let UsageManagementClient = require('azure-arm-commerce');
 
 module.exports = (authConfig) => {
     return new Promise((resolve, reject) => {

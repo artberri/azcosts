@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = (usage, rates) => {
 
     usage.map(metric => {

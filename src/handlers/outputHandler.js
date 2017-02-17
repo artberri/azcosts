@@ -1,3 +1,5 @@
+'use strict';
+
 let csv = require('../outputs/csv');
 
 class OutputHandler {

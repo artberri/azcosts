@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-const program = require('commander');
+'use strict';
+
+let program = require('commander');
 
 // Parse args
 program

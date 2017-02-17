@@ -1,3 +1,5 @@
+'use strict';
+
 let sinon = require('sinon');
 let rewire = require('rewire');
 let errorHandler = rewire('../../src/handlers/errorHandler.js');

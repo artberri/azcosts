@@ -1,3 +1,5 @@
+'use strict';
+
 let should = require('chai').should();
 let rewire = require('rewire');
 let mapper = rewire('../src/mapper.js');

@@ -1,3 +1,5 @@
+'use strict';
+
 function rates(client, config) {
     return new Promise((resolve, reject) => {
         client.rateCard.get({

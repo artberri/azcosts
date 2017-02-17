@@ -1,12 +1,14 @@
-const path = require('path');
-const program = require('commander');
-const nconf = require('nconf');
-const errorHandler = require('./handlers/errorHandler');
-const outputHandler = require('./handlers/outputHandler');
-const getClient = require('./client');
-const getRates = require('./rates');
-const getUsage = require('./usage');
-const mapper = require('./mapper');
+'use strict';
+
+let path = require('path');
+let program = require('commander');
+let nconf = require('nconf');
+let errorHandler = require('./handlers/errorHandler');
+let outputHandler = require('./handlers/outputHandler');
+let getClient = require('./client');
+let getRates = require('./rates');
+let getUsage = require('./usage');
+let mapper = require('./mapper');
 
 // Parse args
 program

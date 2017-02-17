@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 
+'use strict';
+
 class ErrorHandler {
     raise(title, messages) {
         messages = messages || [];
