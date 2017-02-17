@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - "6"
-  - "5"
-  - "4"
+- '6'
+- '5'
+- '4'
+deploy:
+  provider: npm
+  email: alberto@berriart.com
+  api_key:
+    secure: 0tl4ZW9YDHZFGc5rvV3c1Hep63VR3CBAuNP6wfpz4TFOW66mUvwHAvvLtoyG8lV6nybz5RAH2KxCh/OMU73i1sqLjs22Gxn7ufp+OD7ij7iugiSfi3DL+OzcaXCXBJvtluAeTu3Z6VGl+7BRbRMX4OVXjzq/tlCHvqaNvN1Ylc0Rys3k2tyk03KocNaWClzbdZinQOFama72ldgJAOHPOqy1cTLoNpj1mqIhEawk3MqoKEMcYxRNWIXzV5W1rIXMEh0eoLeo5NtULLhJy0O0WTucRT2AN96c0DTftYrgnkKqHeWMjREAe41r4FsR+9nSzi8lo4UhZLbB7FyxZFDoHgsRoJihFfvchMQbiVZr5kRdRqumqyAvwSYrI86CfHXRUhlYFMBgZLodX6gDncayMgwIVm9tWkCzCMin5jrZxFekxMLOLWDqy0QK2HsDwOJRaguS5p7m5ppVyV7RRVkHXWzPIyJFyRBaCRFdLgN7wpn4q4N2WQAIh8rpbDZLWycKhXmbJArv04xC3kFIgAAcGsJHD+S0Ql+bAlj0yiKkMnPxJm9ktWhDxr45ni+8cm49bfBoNHFTedMeucUoy5lWaMML2TNtlGBr+mlQURBKdfPIz7cKfKdJ6LP7XszR5EaoYFM9s+LxiFOAsPBtg0D6O4UMtqh3Knv2jRHGVcuRD3s=
+  on:
+    tags: true
+    repo: artberri/azcosts
